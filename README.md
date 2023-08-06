@@ -15,3 +15,11 @@ USER и ADMIN.
 
 
 ![basic_auth.gif](src%2Fmain%2Fresources%2Fbasic_auth.gif)
+
+Были добавлены следующие тест кейсы:
+
+1. ADMIN и USER пытаются добавить ресурс (доступно только для админа);
+2. ADMIN и USER пытаются получить ресурс (доступно для обоих);
+3. Неавторизованный пользователь пытается добавить ресурс.
+
+![tests.png](src%2Fmain%2Fresources%2Ftests.png)
